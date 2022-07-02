@@ -1,0 +1,24 @@
+name: swap_bot
+
+environment:
+  sdk: '>=2.15.0 <3.0.0'
+
+dependencies:
+  args: ^2.3.0
+  collection: ^1.15.0
+  http: ^0.13.4
+  intl: ^0.17.0
+  logging: ^1.0.2
+  meta: ^1.7.0
+  model_interfaces: ^0.1.4
+  mysql1: ^0.19.2
+  retry: ^3.1.0
+  rxdart: ^0.27.3
+  stats: ^2.0.0
+  teledart: ^0.3.2
+  #web3dart: ^2.3.3
+  web3dart:
+    git:
+      url: https://github.com/alexeyinkin/web3dart
+      ref: alexeyinkin_swap_bot
+  yaml: ^3.1.0

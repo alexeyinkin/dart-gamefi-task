@@ -1,0 +1,24 @@
+chain:        bsc
+dex:          pancakeswap
+
+tokenAddress: 0x2C717059b366714d267039aF8F59125CAdce6D8c # MHUNT
+
+tokenAddresses:
+  - 0x9ab70e92319f0b9127df78868fd3655fb9f1e322 # WWY
+
+amount:
+  usdIn:            200
+  limits:
+    slippage:       5
+    maxPriceInUsd:  1
+    maxPoolShare:   0.01
+
+attemptsPerMinute: 40
+
+dump:
+  reservesBlocks: 200
+  transactionsBlocks: [-5, 20]
+
+chains:
+  bsc:
+    liveUrl:    https://bsc-dataseed.binance.org
